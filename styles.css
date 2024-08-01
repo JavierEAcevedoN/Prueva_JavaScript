@@ -1,0 +1,45 @@
+body {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+body h1 {
+    color: blue;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: fit-content;
+}
+body section#contenedor_cursos_disponibles {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+body section#contenedor_cursos_disponibles div.curso {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+body section#contenedor_cursos_disponibles div.curso h2.titulo {
+    color: #ff9100;
+}
+body section#contenedor_cursos_disponibles div.curso h3 {
+    color: #a200ff;
+}
+body section.botones {
+    width: 100vw;
+    position: sticky;
+    bottom: 0px;
+}
+body section.botones button {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #671388;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
